@@ -32,7 +32,7 @@ export default function Section1() {
   return (
     <section className="w-full aspect-[3/4] md:aspect-video flex flex-col items-center justify-center relative after:absolute after:z-[-2] after:w-full after:h-full after:top-0 after:left-0 after:content-[''] after:bg-[#222222] after:bg-opacity-[0.64]">
       <video autoPlay loop muted playsInline controls={false} 
-        className='absolute top-0 left-0 w-full h-full z-0 items-center object-cover'>
+        className='absolute top-0 left-0 w-full h-full z-0 items-center object-cover brightness-50'>
           <source src="/assets/main.mp4" type="video/mp4" />
         </video>
 
@@ -58,7 +58,7 @@ export default function Section1() {
           <a
           href="https://bit.ly/4qpx59b"
           target="_blank"
-          className="el mt-[2vw] 2xl:mt-[30px]"
+          className="el mt-[2vw] 2xl:mt-[30px] hover:scale-101"
           style={{ width: "22%", height: "auto" }}
           >
             <Image

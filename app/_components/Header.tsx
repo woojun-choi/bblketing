@@ -11,10 +11,10 @@ export default function Header() {
     <header className="w-full z-[999] fixed top-0 left-0 right-0">
       {/* 배경 레이어 (multiply 효과) */}
       <div
-        className="absolute inset-0 bg-[#323232]"
+        className="absolute inset-0 bg-[#363636]"
         style={{ 
           mixBlendMode: 'multiply',
-          opacity: 0.85
+          opacity: 0.8
         }}
       ></div>
 
@@ -43,7 +43,7 @@ export default function Header() {
             alt="지금 문의하기"
             width={160}
             height={58}
-            className="w-auto h-[36px] md:h-[60px]"
+            className="w-auto h-[36px] md:h-[57px]"
           />
         </Link>
       </div>
