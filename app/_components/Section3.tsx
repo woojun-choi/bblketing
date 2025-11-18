@@ -46,14 +46,14 @@ export default function Section3() {
         <Link
           href="https://bit.ly/4qpx59b"
           target="_blank"
-          className="hover:scale-105 transition-transform duration-300 el"
+          className="hover:scale-105 transition-transform duration-300 pt-10 pb-13 md:pb-3 el"
         >
           <Image
             src={inqBtn}
             alt="지금 문의하기"
             width={319}
             height={116}
-            className="w-auto h-[80px] md:h-[116px]"
+            className="w-auto h-[105px] md:h-[116px]"
           />
         </Link>
       </div>

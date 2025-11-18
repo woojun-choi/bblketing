@@ -57,7 +57,7 @@ export default function Section4() {
         <Link
           href="https://bit.ly/4qpx59b"
           target="_blank"
-          className="el hover:scale-105 transition-transform duration-300"
+          className="el hover:scale-105 transition-transform duration-300 pt-5"
         >
           <Image
             src={inqHeroBtn}
@@ -102,7 +102,7 @@ export default function Section4() {
             alt="지금 구하러 가기"
             width={400}
             height={100}
-            className="w-auto h-[80px]"
+            className="w-auto h-[90px]"
           />
         </Link>
       </div>

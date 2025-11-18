@@ -9,7 +9,7 @@ import inquiryBtn from '@/app/assets/inquiry_header_btn.png';
 export default function Header() {
   return (
     <header className="w-full z-[999] fixed top-0 left-0 right-0">
-      {/* 배경 레이어 (multiply 효과) */}
+      {/* 배경 레이어 (multiply) */}
       <div
         className="absolute inset-0 bg-[#363636]"
         style={{ 
@@ -19,7 +19,7 @@ export default function Header() {
       ></div>
 
       {/* 컨텐츠 레이어 (로고 + 버튼) */}
-      <div className="relative px-6 md:px-20 w-full max-w-[1920px] h-[60px] md:h-[95px] flex items-center justify-between mx-auto z-10">
+      <div className="relative px-6 md:px-20 w-full max-w-[1920px] h-[95px] md:h-[95px] flex items-center justify-between mx-auto z-10">
         {/* 로고 */}
         <Link href="/" className="flex items-center">
           <Image
@@ -27,7 +27,7 @@ export default function Header() {
             alt="BBLKETING Logo"
             width={163}
             height={36}
-            className="w-auto h-[23px] md:h-[42px] cursor-pointer"
+            className="w-auto h-[37px] px-5 md:h-[42px] cursor-pointer"
             priority
           />
         </Link>
@@ -43,7 +43,7 @@ export default function Header() {
             alt="지금 문의하기"
             width={160}
             height={58}
-            className="w-auto h-[36px] md:h-[57px]"
+            className="w-auto h-[52px] px-5 md:h-[57px]"
           />
         </Link>
       </div>

@@ -80,8 +80,8 @@ export default function Section1() {
       </div>
       
       {/* MO 컨텐츠 */}
-      <div className="flex md:hidden flex-col gap-[9vw] w-full items-center mx-auto relative z-10">
-        <div className="flex flex-col w-[84%] items-center pt-14 gap-[6vw]">
+      <div className="flex md:hidden flex-col gap-[9vw] w-full justify-center items-center mx-auto relative z-10">
+        <div className="flex flex-col w-[84%] items-center pb-12 gap-[6vw]">
           <Image
             src={mainTitle}
             alt="대표님의 이름이 선택의 기준이 될수 있도록"
@@ -101,7 +101,7 @@ export default function Section1() {
           <a
             href="https://bit.ly/4qpx59b"
             target="_blank"
-            className="el mt-[4vw] hover:scale-101"
+            className="el mt-[4vw] hover:scale-101 pl-8"
             style={{ width: "60%", height: "auto" }}
           >
             <Image
