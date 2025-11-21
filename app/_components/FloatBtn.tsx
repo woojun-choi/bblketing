@@ -9,7 +9,7 @@ export default function FloatBtn() {
     <Link
       href="https://bit.ly/4qpx59b"
       target="_blank"
-      className="fixed z-[50] bottom-[40px] -right-4 md:ight-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+      className="fixed z-[50] bottom-[40px] -right-4 md:right-6 cursor-pointer hover:scale-105 transition-transform duration-300"
     >
       <Image
         src={floatAsk}
