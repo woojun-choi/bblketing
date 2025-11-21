@@ -9,4 +9,7 @@ const nextConfig = {
     basePath: '/bblketing',
 }
 
+const prefix =
+  process.env.NODE_ENV === 'production' ? 'https://woojun-choi.github.io/bblketing/' : ''
+
 export default nextConfig;
