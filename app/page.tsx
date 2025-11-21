@@ -10,6 +10,7 @@ import Section5 from "./_components/Section5";
 import Section6 from "./_components/Section6";
 import Section7 from "./_components/Section7";
 import Section8 from "./_components/Section8";
+import Section9 from "./_components/Section9";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
           <Section6 />
           <Section7 />
           <Section8 />
+          <Section9 />v
         </AnimationProvider>
       </main>
     </>
