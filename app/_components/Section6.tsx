@@ -54,7 +54,7 @@ export default function Section6() {
             alt="쁠케팅은 대표님께서 영웅이 되길 진심으로 바랍니다"
             width={743}
             height={135}
-            className="el w-full max-w-[743px] h-auto mb-20 -py-8"
+            className="el w-full max-w-[743px] h-auto mb-20 -py-8 mt-8"
           />
 
           {/* 컨텐츠 */}
@@ -70,14 +70,14 @@ export default function Section6() {
           <Link
             href="https://bit.ly/4qpx59b"
             target="_blank"
-            className="el hover:scale-101 transition-transform duration-300 py-12"
+            className="el hover:scale-105 transition-transform duration-300 py-12"
           >
             <Image
               src={inqHeroBtn}
               alt="지금 구하러 가기"
               width={400}
               height={100}
-              className="w-auto h-[100px]"
+              className="w-auto h-[101px]"
             />
           </Link>
         </div>
@@ -98,14 +98,14 @@ export default function Section6() {
         </div>
 
         {/* 컨텐츠 */}
-        <div className="relative z-10 w-full min-h-screen flex flex-col items-center justify-center py-16 px-6">
+        <div className="relative z-10 w-full min-h-screen flex flex-col items-center justify-center py-16 px-6 ">
           {/* 타이틀 */}
           <Image
             src={mTitleImage}
             alt="쁠케팅은 대표님께서 영웅이 되길 진심으로 바랍니다"
             width={925}
             height={165}
-            className="el w-full max-w-[925px] h-auto mb-12"
+            className="el w-full max-w-[925px] h-auto mb-12 mt-6"
           />
 
           {/* 컨텐츠 */}
@@ -114,14 +114,14 @@ export default function Section6() {
             alt="6가지 약속"
             width={1058}
             height={669}
-            className="el w-full max-w-[1058px] h-auto mb-12 py-14"
+            className="el w-full max-w-[1058px] h-auto mb-6 py-14"
           />
 
           {/* 구하기 버튼 */}
           <Link
             href="https://bit.ly/4qpx59b"
             target="_blank"
-            className="el hover:scale-105 transition-transform duration-300 "
+            className="el hover:scale-105 transition-transform duration-300 mb-10"
           >
             <Image
               src={inqHeroBtn}

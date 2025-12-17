@@ -3,8 +3,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import logoWhite from '@/app/assets/logo_white.png';
-import inquiryBtn from '@/app/assets/inquiry_header_btn.png';
+import logoWhite from '@/app/assets/logo_white.svg';
+import inquiryBtn from '@/app/assets/inquiry_header_btn.svg';
 
 export default function Header() {
   return (
@@ -29,6 +29,8 @@ export default function Header() {
             height={36}
             className="w-auto h-[37px] px-5 md:h-[42px] cursor-pointer"
             priority
+            quality={100}
+            unoptimized
           />
         </Link>
 
@@ -44,6 +46,8 @@ export default function Header() {
             width={160}
             height={58}
             className="w-auto h-[52px] px-5 md:h-[57px]"
+            quality={100}
+            unoptimized
           />
         </Link>
       </div>

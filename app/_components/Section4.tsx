@@ -70,7 +70,7 @@ export default function Section4() {
       </div>
 
       {/* 모바일 버전 */}
-      <div className="flex md:hidden flex-col items-center justify-center py-16 px-6">
+      <div className="flex md:hidden flex-col items-center justify-center py-16 px-6 mt-15 mb-15">
         {/* 타이틀 */}
         <Image
           src={mTitleImage}
@@ -102,7 +102,7 @@ export default function Section4() {
             alt="지금 구하러 가기"
             width={400}
             height={100}
-            className="w-auto h-[90px]"
+            className="w-auto h-[95px] mt-7"
           />
         </Link>
       </div>

@@ -95,7 +95,7 @@ export default function Section5() {
         <Link
           href="https://bit.ly/4qpx59b"
           target="_blank"
-          className="el hover:scale-101 py-4 transition-transform duration-300"
+          className="el hover:scale-105 py-4 transition-transform duration-300"
         >
           <Image
             src={inqHeroBtn}

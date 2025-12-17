@@ -41,7 +41,7 @@ export default function Section7() {
       </div>
 
       {/* 컨텐츠 */}
-      <div className="relative z-10 w-full min-h-[975px] flex flex-col items-center justify-center py-10 px-6 -mt-18 mb-5 md:-mb-1">
+      <div className="relative z-10 w-full min-h-[975px] flex flex-col items-center justify-center py-10 px-6 -mt-30 md:-mt-10 -mb-18 md:-mb-1">
         {/* 타이틀 */}
         <Image
           src={titleImage}

@@ -53,7 +53,7 @@ export default function Section3() {
             alt="지금 문의하기"
             width={319}
             height={116}
-            className="w-auto h-[105px] md:h-[116px]"
+            className="w-auto h-[105px] md:h-[100px]"
           />
         </Link>
       </div>

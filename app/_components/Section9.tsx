@@ -108,10 +108,10 @@ export default function Section9() {
           {/* 컨텐츠 */}
           <Image
             src={mContentsImage}
-            alt="뿔케팅 BBLKETING"
+            alt="쁠케팅 BBLKETING"
             width={985}
             height={548}
-            className="el w-full max-w-[985px] h-auto mb-32"
+            className="el w-full max-w-[985px] h-auto mb-28"
           />
 
           {/* 선택 버튼 */}
@@ -125,7 +125,7 @@ export default function Section9() {
               alt="선택의 기준 되러가기"
               width={400}
               height={100}
-              className="w-auto h-[120px] mb-16"
+              className="w-auto h-[115px] mb-20"
             />
           </Link>
         </div>

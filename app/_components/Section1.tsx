@@ -46,13 +46,13 @@ export default function Section1() {
 
       {/* PC 컨텐츠 */}
       <div className="absolute hidden md:flex top-0 left-0 inset-0 z-10 items-center justify-center">
-        <div className="flex flex-col items-center gap-[5vw] 2xl:gap-[80px] w-[65.2%]">
+        <div className="flex flex-col items-center gap-[5vw] 2xl:gap-[80px] ">
           <Image
             src={mainTitle}
             alt="대표님의 이름이 선택의 기준이 될수 있도록"
             width={621}
             height={277}
-            style={{ width: "55%", height: "auto" }}
+            style={{ width: "80%", height: "auto" }}
             className="el"
           />
           <Image
@@ -60,14 +60,14 @@ export default function Section1() {
             alt="나만의 브랜드 블로그 마케팅으로"
             width={544}
             height={61}
-            style={{ width: "45%", height: "auto" }}
+            style={{ width: "72%", height: "auto" }}
             className="el"
           />
           <a
             href="https://bit.ly/4qpx59b"
             target="_blank"
-            className="el mt-[2vw] 2xl:mt-[30px] hover:scale-101"
-            style={{ width: "22%", height: "auto" }}
+            className="el mt-[50px] md:mt-[25px] hover:scale-105"
+            style={{ width: "37%", height: "auto" }}
           >
             <Image
               src={inqBtn}
@@ -101,8 +101,8 @@ export default function Section1() {
           <a
             href="https://bit.ly/4qpx59b"
             target="_blank"
-            className="el mt-[4vw] hover:scale-101 pl-8"
-            style={{ width: "60%", height: "auto" }}
+            className="el mt-[10vw] hover:scale-105 pl-8"
+            style={{ width: "53%", height: "auto" }}
           >
             <Image
               src={inqBtn}

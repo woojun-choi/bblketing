@@ -87,7 +87,7 @@ export default function Section8() {
       </div>
 
       {/* 모바일 버전 */}
-      <div className="flex md:hidden flex-col items-center justify-center py-32 px-6">
+      <div className="flex md:hidden flex-col items-center justify-center py-32 px-6 ">
         {/* 타이틀 */}
         <Image
           src={mTitleImage}
@@ -126,7 +126,7 @@ export default function Section8() {
         <Link
           href="https://bit.ly/4qpx59b"
           target="_blank"
-          className="el hover:scale-101 transition-transform duration-300"
+          className="el hover:scale-105 transition-transform duration-300"
         >
           <Image
             src={inqHeroBtn}
